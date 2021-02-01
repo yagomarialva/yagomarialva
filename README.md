@@ -21,11 +21,11 @@ class Student:
 
     def say_hi(self):
         print(
-            """Hello my friend, thanks for dropping by!
+            """Oi, obrigado pela visita!
 
-This is {name}, I live in {location}. I work as a {role} and recently I am focusing on {focus} for my personal growth.
+Meu nome é {name}, sou de {location}. no momento sou {role} e atualmente estou focando {focus} para melhorar minhas habilidades.
 
-I have wide interests, but most of them are {knowledge_base}.""".format(
+gosto de estudar várias coisas mas o que mais me especializei foi {knowledge_base}.""".format(
                 name=self.name,
                 location=self.location,
                 role=self.role,
