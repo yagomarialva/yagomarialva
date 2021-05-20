@@ -15,9 +15,11 @@ class Student:
         self.role = "Estudante o/"
         self.location = "https://goo.gl/maps/j62SAvvmu78kCKZP6"
         self.knowledge_base = [
-            "Front-end"
+            "HTML",
+            "CSS",
+            "Typerscript"
         ]
-        self.knowledge_base.insert(0, "Data Science")
+        self.knowledge_base.insert(0, "Angular")
 
     def say_hi(self):
         print(
