@@ -1,6 +1,6 @@
 # Olá! Eu sou Yago Marialva Bentes :wave:
 
-Sou desenvolvedor front-end focado em JavaScript e apaixonado por tecnologias web. Atualmente, estou estudando e trabalhando em projetos relacionados a JavaScript.
+Sou desenvolvedor front-end focado em Java e Typescript em tecnologias web. Atualmente, estou estudando e trabalhando em projetos relacionados a Angular e Spring-Boot com Java.
 
 ## Minhas habilidades
 
