@@ -1,44 +1,22 @@
-# Hello there 👋
+class Student {
+  constructor() {
+    this.name = "Yago Marialva Bentes";
+    this.role = "Full-Stack developer";
+    this.location = "https://goo.gl/maps/j62SAvvmu78kCKZP6";
+    this.knowledge_base = [
+      "HTML",
+      "CSS",
+      "Java",
+      "Javascript",
+      "Typerscript"
+    ];
+    this.knowledge_base.unshift("Angular");
+  }
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=yagomarialva-br.yagomarialva-br)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+  say_hi() {
+    console.log(`Oi, obrigado pela visita!\n\nMeu nome é ${this.name}, sou de ${this.location}. no momento sou ${this.role} e atualmente estou focando ${this.knowledge_base[0]} para melhorar minhas habilidades.\n\ngosto de estudar várias coisas mas o que mais me especializei foi ${this.knowledge_base.slice(1).join(", ")}.`);
+  }
+}
 
-
-```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-
-class Student:
-    def __init__(self):
-        self.name = "Yago Marialva Bentes"
-        self.role = "Estudante o/"
-        self.location = "https://goo.gl/maps/j62SAvvmu78kCKZP6"
-        self.knowledge_base = [
-            "HTML",
-            "CSS",
-            "Typerscript"
-        ]
-        self.knowledge_base.insert(0, "Angular")
-
-    def say_hi(self):
-        print(
-            """Oi, obrigado pela visita!
-
-Meu nome é {name}, sou de {location}. no momento sou {role} e atualmente estou focando {focus} para melhorar minhas habilidades.
-
-gosto de estudar várias coisas mas o que mais me especializei foi {knowledge_base}.""".format(
-                name=self.name,
-                location=self.location,
-                role=self.role,
-                focus=self.knowledge_base[0],
-                knowledge_base=", ".join(self.knowledge_base[1:]),
-            )
-        )
-
-
-me = Student()
-me.say_hi()
-
-## read me inspired on https://github.com/Zhenye-Na
-```
+const me = new Student();
+me.say_hi();
